@@ -586,10 +586,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8000b3ff', e
 }
 #about img {
 	float: right;
+	width: inherit;
 }
 #about p {
 	margin-top: 20px;
 	margin-bottom: 30px;
+	text-align:justify;
 }
 ol.type1 li {
 	display: inline-block;
