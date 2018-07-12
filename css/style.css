@@ -400,7 +400,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d900b3ff', e
 }
 .expand.open{
 	border-radius: 50px;
-	background: linear-gradient(to right,rgba(0,179,255,0),rgba(0,179,255,0.2)10%, rgba(0,179,255,0.8)30%,rgba(0,179,255,1)80%);
+	background: linear-gradient(to right,rgba(0,179,255,0), rgba(0,179,255,0.8)30%,rgba(0,179,255,1)80%);
 	width: 350px;
 	-ms-transform: scale(1.5,2.5); /* IE 9 */
     -webkit-transform: scale(1.5,2.5); /* Safari */
