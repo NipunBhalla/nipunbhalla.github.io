@@ -69,8 +69,8 @@
               </div>
             </div>
             <div class="intro-text">
-              <h1>Nipun Bhalla</h1>
-              <p>This is test Text.</p>
+              <!--<h1>Nipun Bhalla</h1>-->
+              <p style="font-family: "Lato">Hey, my name is <strong>Nipun</strong> and I am a <strong>B.Tech. graduate from GGSIPU.</strong><br>I love to build stuff and this online portfolio is of them. Click the button below to check out other things that I have done and what the skills I've learned.</p>
               <a href="#about" class="btn btn-default btn-lg page-scroll">Learn More</a> </div>
           </div>
         </div>
@@ -336,7 +336,7 @@
         <div class="timeline">
           <div class="entry">
             <div class="title">
-              <h3>June 2017  -  July 2017</h3>
+              <h3>June 2017 - July 2017</h3>
             </div>
             <div class="body_t">
               <p><strong>Weapons and Electronics Systems Engineering Establishment (WESEE)//</strong> Indian Navy, Ministry of Defence</p>
@@ -449,16 +449,16 @@
             </div>
             <div class="col-sm-4">
               <blockquote>
-                <p>Organiser</p>
+                <p>Organiser<br>&#8203</p>
                 <div class="clients-name">
                   <p><strong>2017-2018</strong><br>
-                    <em>TEDx BPIT</em></p>
+                    <em>TEDx BPIT<br>&#8203</em></p>
                 </div>
               </blockquote>
             </div>
             <div class="col-sm-4">
               <blockquote>
-                <p>Organising Committee</p>
+                <p>Organising Committee<br>&#8203</p>
                 <div class="clients-name">
                   <p><strong>2017-2018</strong><br>
                     <em>CRCA BPIT(Committee for Recreation and Cultural Activities)</em></p>
@@ -485,19 +485,19 @@
             </div>
             <div class="col-sm-4">
               <blockquote>
-                <p>Head: Technical and Graphics</p>
+                <p>Head: Technical and Graphics<br>&#8203</p>
                 <div class="clients-name">
                   <p><strong>2015-2016-2017</strong><br>
-                    <em>Entrepreneurship-Cell, BPIT</em></p>
+                    <em>Entrepreneurship-Cell, BPIT<br>&#8203</em></p>
                 </div>
               </blockquote>
             </div>
             <div class="col-sm-4">
               <blockquote>
-                <p>Head: Technical and Graphics</p>
+                <p>Head: Technical and Graphics<br>&#8203</p>
                 <div class="clients-name">
                   <p><strong>2015-2016</strong><br>
-                    <em>IEEE BPIT</em></p>
+                    <em>IEEE BPIT<br>&#8203</em></p>
                 </div>
               </blockquote>
             </div>
@@ -510,25 +510,24 @@
                 </div>
               </blockquote>
             </div>
-             <div class="col-sm-4">
-              <blockquote>
-                <p>Core Team of the college techno-cultural fest</p>
-                <div class="clients-name">
-                  <p><strong>Corona 2017</strong><br>
-                    <em>In-charge and Head of Technical Team, Website, Mobile Application and Other Technical Solutions</em></p>
-                </div>
-              </blockquote>
-            </div>
+           <div class="col-sm-4">
+            <blockquote>
+              <p>Core Team of the college techno-cultural fest</p>
+              <div class="clients-name">
+                <p><strong>Corona 2017</strong><br>
+                  <em>In-charge and Head of Technical Team, Website, Mobile Application and Other Technical Solutions</em></p>
+              </div>
+            </blockquote>
           </div>
           <div class="col-sm-4">
-              <blockquote>
-                <p>Designed College Newsletter - Echo 2016</p>
-                <div class="clients-name">
-                  <p><strong>Chief Student Designer</strong><br>
-                    <em>Literary Society</em></p>
-                </div>
-              </blockquote>
-            </div>
+            <blockquote>
+              <p>Designed College Newsletter - Echo 2016</p>
+              <div class="clients-name">
+                <p><strong>Chief Student Designer</strong><br>
+                  <em>Literary Society<br>&#8203<br>&#8203</em></p>
+              </div>
+            </blockquote>
+          </div>
         </div>
       </div>
     </div>
@@ -542,29 +541,35 @@
           <hr>
         </div>
         <div class="col-md-8 col-md-offset-2">
-          <form name="sentMessage" id="contactForm" novalidate>
+          <!--<form method="POST" action="https://formspree.io/nipun.bhalla.811@gmail.com">
+            <input type="name" name="name" placeholder="Your Name" class="form-control">
+            <input type="email" name="email" placeholder="Your email" class="form-control">
+            <textarea name="message" placeholder="Your message" class="form-control"></textarea>
+            <button type="submit" class="btn btn-default">Send</button>
+          </form>
+          -->
+          <form method="POST" action="https://formspree.io/nipun.bhalla.811@gmail.com">
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
-                  <input type="text" id="name" class="form-control" placeholder="Name" required>
-                  <p class="help-block text-danger"></p>
+                   <input type="hidden" name="_next" value="https://nipunbhalla.github.io/greetings/thankyou.html" />
+                   <input type="text" name="_gotcha" style="display:none" />
+                   <input type="name" name="name" placeholder="Your Name" class="form-control">
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-group">
-                  <input type="email" id="email" class="form-control" placeholder="Email" required>
-                  <p class="help-block text-danger"></p>
+                 <input type="email" name="email" placeholder="Your email" class="form-control">
                 </div>
               </div>
             </div>
             <div class="form-group">
-              <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
-              <p class="help-block text-danger"></p>
+               <textarea name="message" placeholder="Your message" class="form-control"></textarea>
             </div>
             <div id="success"></div>
             <button type="submit" class="btn btn-default">Send Message</button>
           </form><br>
-		<!--
+          <!--
           <div class="social">
             <ul>
               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -596,7 +601,6 @@
 <script type="text/javascript" src="js/jquery.counterup.js"></script> 
 <script type="text/javascript" src="js/waypoints.js"></script> 
 <script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
-<script type="text/javascript" src="js/contact_me.js"></script> 
 <script type="text/javascript" src="js/readmore.min.js"></script> 
 <script type="text/javascript" src="js/main.js"></script>
 </body>
