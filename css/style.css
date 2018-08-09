@@ -586,7 +586,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8000b3ff', e
 }
 #about img {
 	float: right;
-	width: inherit;
+	/*width: inherit;*/
 }
 #about p {
 	margin-top: 20px;
