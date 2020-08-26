@@ -94,7 +94,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d900b3ff', e
 /* The sidebar menu */
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 20%; /* Set the width of the sidebar */
+    /* width: 20%;  Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 99; /* Stay on top */
     top: 0; /* Stay at the top */
@@ -139,9 +139,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d900b3ff', e
     color: #f1f1f1;
 }
 
-#main{
+/* #main{
 	margin-left:20%;
-}
+} */
 
 /* text Animation*/
 .content {
@@ -1009,9 +1009,9 @@ color: #2c3e50;
 
 /* Media Queries */
 @media (max-width: 1367px) {
-#main {
+/* #main {
 	margin-left: 12%;
-}
+} */
 .sidenav {
 	width: 12%;
 }
