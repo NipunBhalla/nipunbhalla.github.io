@@ -146,7 +146,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d900b3ff', e
 /* text Animation*/
 .content {
   position: absolute;
-  top: 45%;
+  top: 2%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
