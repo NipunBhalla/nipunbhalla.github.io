@@ -2972,3 +2972,11 @@ button,
 #nprogress .spinner-icon {
   	border-top-color: #1851f1; border-left-color: #1851f1;
 	}
+
+/* 5-per-row skill tiles on desktop (about page) */
+@media (min-width: 1200px) {
+	.skill-col-5 {
+		width: 20%;
+		float: left;
+	}
+}

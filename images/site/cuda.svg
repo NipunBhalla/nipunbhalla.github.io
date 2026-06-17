@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- GPU chip body -->
+  <rect x="116" y="116" width="280" height="280" rx="28" fill="#76b900" stroke="#1b1b2f" stroke-width="20"/>
+  <!-- inner core grid -->
+  <g fill="#ffffff" opacity="0.9">
+    <rect x="158" y="158" width="44" height="44" rx="6"/>
+    <rect x="234" y="158" width="44" height="44" rx="6"/>
+    <rect x="310" y="158" width="44" height="44" rx="6"/>
+    <rect x="158" y="234" width="44" height="44" rx="6"/>
+    <rect x="310" y="234" width="44" height="44" rx="6"/>
+    <rect x="158" y="310" width="44" height="44" rx="6"/>
+    <rect x="234" y="310" width="44" height="44" rx="6"/>
+    <rect x="310" y="310" width="44" height="44" rx="6"/>
+  </g>
+  <!-- center CUDA core highlight -->
+  <rect x="234" y="234" width="44" height="44" rx="6" fill="#1b1b2f"/>
+  <!-- chip pins -->
+  <g stroke="#1b1b2f" stroke-width="18" stroke-linecap="round">
+    <path d="M170 116 V80 M256 116 V80 M342 116 V80"/>
+    <path d="M170 396 V432 M256 396 V432 M342 396 V432"/>
+    <path d="M116 170 H80 M116 256 H80 M116 342 H80"/>
+    <path d="M396 170 H432 M396 256 H432 M396 342 H432"/>
+  </g>
+</svg>
